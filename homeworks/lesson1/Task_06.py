@@ -15,3 +15,14 @@
 
 Ответ: на 6-й день спортсмен достиг результата — не менее 3 км.
 '''
+
+first_result = int(input('Run in day 1 (km): '))
+target_result = int(input('You target (km): '))
+impr_result = first_result * 1.1
+nday = 2
+
+while impr_result < target_result:
+    impr_result = impr_result * 1.1
+    nday += 1
+
+print(f'You will achive your goal on the {nday} day')
