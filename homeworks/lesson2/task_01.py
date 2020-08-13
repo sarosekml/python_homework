@@ -3,4 +3,9 @@
 Элементы списка можно не запрашивать у пользователя, а указать явно, в программе.
 '''
 
-print('stroke')
+check_type = ["Stroke", 77, 36.6, True, None]
+
+#print(check_type)
+
+for el in check_type:
+    print(type(el))
